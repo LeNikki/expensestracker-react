@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th,
+td {
+  border: 1px solid #ddd;
+  width: 10em;
+  padding: 0.5em;
+}
+
+.scrollable {
+  height: 20em;
+  overflow-y: scroll;
+}
